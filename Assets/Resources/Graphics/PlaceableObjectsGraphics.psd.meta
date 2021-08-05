@@ -1,0 +1,2329 @@
+fileFormatVersion: 2
+guid: 971230bbf5c5dfd48add191714795782
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5538831780887658557
+    second: PlaceableObjectsGraphics_0
+  - first:
+      213: -9120284942566018623
+    second: PlaceableObjectsGraphics_1
+  - first:
+      213: -2187011050983773176
+    second: PlaceableObjectsGraphics_2
+  - first:
+      213: 3969008378345998901
+    second: PlaceableObjectsGraphics_3
+  - first:
+      213: -953455219436256242
+    second: PlaceableObjectsGraphics_4
+  - first:
+      213: 3495848401338470885
+    second: PlaceableObjectsGraphics_5
+  - first:
+      213: -1330147960550248095
+    second: PlaceableObjectsGraphics_6
+  - first:
+      213: -136602912627620405
+    second: PlaceableObjectsGraphics_7
+  - first:
+      213: 5723628283419692328
+    second: PlaceableObjectsGraphics_8
+  - first:
+      213: 6960802459422336024
+    second: PlaceableObjectsGraphics_9
+  - first:
+      213: -6827503038059222387
+    second: PlaceableObjectsGraphics_10
+  - first:
+      213: 1516583634297464512
+    second: PlaceableObjectsGraphics_11
+  - first:
+      213: -5580769043013366494
+    second: PlaceableObjectsGraphics_12
+  - first:
+      213: -8741337294850322258
+    second: PlaceableObjectsGraphics_13
+  - first:
+      213: -5714442615070867331
+    second: PlaceableObjectsGraphics_14
+  - first:
+      213: -3451454535639847024
+    second: PlaceableObjectsGraphics_15
+  - first:
+      213: -2083713353710031456
+    second: PlaceableObjectsGraphics_16
+  - first:
+      213: -2820881465948968905
+    second: PlaceableObjectsGraphics_17
+  - first:
+      213: -343047679512992612
+    second: PlaceableObjectsGraphics_18
+  - first:
+      213: 1461741803876261950
+    second: PlaceableObjectsGraphics_19
+  - first:
+      213: -4387089223415250391
+    second: PlaceableObjectsGraphics_20
+  - first:
+      213: -3785835681276356605
+    second: PlaceableObjectsGraphics_21
+  - first:
+      213: 4491749463532954607
+    second: PlaceableObjectsGraphics_22
+  - first:
+      213: -6838969326203302012
+    second: PlaceableObjectsGraphics_23
+  - first:
+      213: -2288913824972536731
+    second: PlaceableObjectsGraphics_24
+  - first:
+      213: -8252477257394544947
+    second: PlaceableObjectsGraphics_25
+  - first:
+      213: 3081440671501742686
+    second: PlaceableObjectsGraphics_26
+  - first:
+      213: -4924056542359718721
+    second: PlaceableObjectsGraphics_27
+  - first:
+      213: -5875753032119645810
+    second: PlaceableObjectsGraphics_28
+  - first:
+      213: 5168014691722645469
+    second: PlaceableObjectsGraphics_29
+  - first:
+      213: -7895955532099969354
+    second: PlaceableObjectsGraphics_30
+  - first:
+      213: -6187738841772081543
+    second: PlaceableObjectsGraphics_31
+  - first:
+      213: 6112722787752913270
+    second: PlaceableObjectsGraphics_32
+  - first:
+      213: 1017629236339568960
+    second: PlaceableObjectsGraphics_33
+  - first:
+      213: 8399688380167426368
+    second: PlaceableObjectsGraphics_34
+  - first:
+      213: 4768819858437028196
+    second: PlaceableObjectsGraphics_35
+  - first:
+      213: 5585097126965119966
+    second: PlaceableObjectsGraphics_36
+  - first:
+      213: 7944952346811712312
+    second: PlaceableObjectsGraphics_37
+  - first:
+      213: 2773347768361356177
+    second: PlaceableObjectsGraphics_38
+  - first:
+      213: 6570823332969546091
+    second: PlaceableObjectsGraphics_39
+  - first:
+      213: 5392414719378109877
+    second: PlaceableObjectsGraphics_40
+  - first:
+      213: 7272556209209545739
+    second: PlaceableObjectsGraphics_41
+  - first:
+      213: 2012903282043150943
+    second: PlaceableObjectsGraphics_42
+  - first:
+      213: -4743808874081995430
+    second: PlaceableObjectsGraphics_43
+  - first:
+      213: -2956475201465079574
+    second: PlaceableObjectsGraphics_44
+  - first:
+      213: 2185557050553090873
+    second: PlaceableObjectsGraphics_45
+  - first:
+      213: 7900242855510384730
+    second: PlaceableObjectsGraphics_46
+  - first:
+      213: -5101540447316772288
+    second: PlaceableObjectsGraphics_47
+  - first:
+      213: 4014920648860887334
+    second: PlaceableObjectsGraphics_48
+  - first:
+      213: -2550653473996305931
+    second: PlaceableObjectsGraphics_49
+  - first:
+      213: -9141961892233902673
+    second: PlaceableObjectsGraphics_50
+  - first:
+      213: 4323447781569608801
+    second: PlaceableObjectsGraphics_51
+  - first:
+      213: 3892018019175179307
+    second: PlaceableObjectsGraphics_52
+  - first:
+      213: -48333993851700637
+    second: PlaceableObjectsGraphics_53
+  - first:
+      213: -8415743327246098799
+    second: PlaceableObjectsGraphics_54
+  - first:
+      213: 1646944757229787171
+    second: PlaceableObjectsGraphics_55
+  - first:
+      213: 3376938626758756203
+    second: PlaceableObjectsGraphics_56
+  - first:
+      213: 179159007287968573
+    second: PlaceableObjectsGraphics_57
+  - first:
+      213: 3564351980146719705
+    second: PlaceableObjectsGraphics_58
+  - first:
+      213: 5013371936384925264
+    second: PlaceableObjectsGraphics_59
+  - first:
+      213: 3602796095692286777
+    second: PlaceableObjectsGraphics_60
+  - first:
+      213: 1066588806676068401
+    second: PlaceableObjectsGraphics_61
+  - first:
+      213: -2629822837298457278
+    second: PlaceableObjectsGraphics_62
+  - first:
+      213: 5224018842371711335
+    second: PlaceableObjectsGraphics_63
+  - first:
+      213: -7418758155829220532
+    second: PlaceableObjectsGraphics_64
+  - first:
+      213: -5895012824676799038
+    second: PlaceableObjectsGraphics_65
+  - first:
+      213: 8137926279289041636
+    second: PlaceableObjectsGraphics_66
+  - first:
+      213: -5876778257648477207
+    second: PlaceableObjectsGraphics_67
+  - first:
+      213: 3345864069260382154
+    second: PlaceableObjectsGraphics_68
+  - first:
+      213: 1899591241715109470
+    second: PlaceableObjectsGraphics_69
+  - first:
+      213: -6912559616239585626
+    second: PlaceableObjectsGraphics_70
+  - first:
+      213: -7221082494226417864
+    second: PlaceableObjectsGraphics_71
+  - first:
+      213: 5317798731376411502
+    second: PlaceableObjectsGraphics_72
+  - first:
+      213: -1698212586805293955
+    second: PlaceableObjectsGraphics_73
+  - first:
+      213: 307700812626498814
+    second: PlaceableObjectsGraphics_74
+  - first:
+      213: -5643050712726206758
+    second: PlaceableObjectsGraphics_75
+  - first:
+      213: 9120345158966896457
+    second: PlaceableObjectsGraphics_76
+  - first:
+      213: 6055208003847605596
+    second: PlaceableObjectsGraphics_77
+  - first:
+      213: 2245965590117794209
+    second: PlaceableObjectsGraphics_78
+  - first:
+      213: 4102870024200803486
+    second: PlaceableObjectsGraphics_79
+  - first:
+      213: -5144442323165126346
+    second: PlaceableObjectsGraphics_80
+  - first:
+      213: 3298739401574790705
+    second: PlaceableObjectsGraphics_81
+  - first:
+      213: 2386952317736203047
+    second: PlaceableObjectsGraphics_82
+  - first:
+      213: 8001517206222761348
+    second: PlaceableObjectsGraphics_83
+  - first:
+      213: -8327525949315535414
+    second: PlaceableObjectsGraphics_84
+  - first:
+      213: 2535876286793556863
+    second: PlaceableObjectsGraphics_85
+  - first:
+      213: 5446792526332635887
+    second: PlaceableObjectsGraphics_86
+  - first:
+      213: 1473754244527573121
+    second: PlaceableObjectsGraphics_87
+  - first:
+      213: -596630417884915859
+    second: PlaceableObjectsGraphics_88
+  - first:
+      213: 7880288260831093416
+    second: PlaceableObjectsGraphics_89
+  - first:
+      213: 610553645760067812
+    second: PlaceableObjectsGraphics_90
+  - first:
+      213: -6123921139127041733
+    second: PlaceableObjectsGraphics_91
+  - first:
+      213: -2152003286809080066
+    second: PlaceableObjectsGraphics_92
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d300472a822eddc40800000000000000
+      internalID: 5538831780887658557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c132048a2d3e6180800000000000000
+      internalID: -9120284942566018623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c2242590d26a1e0800000000000000
+      internalID: -2187011050983773176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53accd56710c41730800000000000000
+      internalID: 3969008378345998901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0482409785a4c2f0800000000000000
+      internalID: -953455219436256242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e19566699fb38030800000000000000
+      internalID: 3495848401338470885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16131b03a7d5a8de0800000000000000
+      internalID: -1330147960550248095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc50c8def50ba1ef0800000000000000
+      internalID: -136602912627620405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d0c9349996e6f40800000000000000
+      internalID: 5723628283419692328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814a889f4fcb99060800000000000000
+      internalID: 6960802459422336024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a64991926df31a0800000000000000
+      internalID: -6827503038059222387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a87ab7ccfb0510800000000000000
+      internalID: 1516583634297464512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d01b1af102d82b0800000000000000
+      internalID: -5580769043013366494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0929e3b0880b680800000000000000
+      internalID: -8741337294850322258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70c85fc7b832b0b0800000000000000
+      internalID: -5714442615070867331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fa6cce268f910d0800000000000000
+      internalID: -3451454535639847024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad206aaeb92513e0800000000000000
+      internalID: -2083713353710031456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738e0ac90473ad8d0800000000000000
+      internalID: -2820881465948968905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c942b99f3ff3d3bf0800000000000000
+      internalID: -343047679512992612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30226d0d66294410800000000000000
+      internalID: 1461741803876261950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922c368589ded13c0800000000000000
+      internalID: -4387089223415250391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308168f8182067bc0800000000000000
+      internalID: -3785835681276356605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3eee9b656e55e30800000000000000
+      internalID: 4491749463532954607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 387
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f0cd9d1a91711a0800000000000000
+      internalID: -6838969326203302012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564080dd0052c30e0800000000000000
+      internalID: -2288913824972536731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce120c68af497d80800000000000000
+      internalID: -8252477257394544947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e527d4de6f973ca20800000000000000
+      internalID: 3081440671501742686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4f5bad9ac3aabb0800000000000000
+      internalID: -4924056542359718721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8985949fb1257ea0800000000000000
+      internalID: -5875753032119645810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfc0261bf978b740800000000000000
+      internalID: 5168014691722645469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be96e2374eeb6290800000000000000
+      internalID: -7895955532099969354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 339
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eb945be4cb02aa0800000000000000
+      internalID: -6187738841772081543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679a2762df0c4d450800000000000000
+      internalID: 6112722787752913270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041721916685f1e00800000000000000
+      internalID: 1017629236339568960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411bdb0410b19470800000000000000
+      internalID: 8399688380167426368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469b7fb15604e2240800000000000000
+      internalID: 4768819858437028196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb8fc0fe30428d40800000000000000
+      internalID: 5585097126965119966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8334e15b014224e60800000000000000
+      internalID: 7944952346811712312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_38
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 267
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b0dcbf919ec7620800000000000000
+      internalID: 2773347768361356177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618f73f101403b50800000000000000
+      internalID: 6570823332969546091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 243
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5be16fd94b5da40800000000000000
+      internalID: 5392414719378109877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 243
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b041ff2375f4de460800000000000000
+      internalID: 7272556209209545739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526665ced44feb10800000000000000
+      internalID: 2012903282043150943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a553ff976fa9a2eb0800000000000000
+      internalID: -4743808874081995430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae82c65e77d78f6d0800000000000000
+      internalID: -2956475201465079574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_45
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9334192de88a45e10800000000000000
+      internalID: 2185557050553090873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50a302150d43ad60800000000000000
+      internalID: 7900242855510384730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a75660effa339b0800000000000000
+      internalID: -5101540447316772288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 219
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629ebb4ee0dd7b730800000000000000
+      internalID: 4014920648860887334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f98559ed224a9cd0800000000000000
+      internalID: -2550653473996305931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_50
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 195
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa58d3f581a312180800000000000000
+      internalID: -9141961892233902673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 195
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c3869c9d8fffb30800000000000000
+      internalID: 4323447781569608801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 48
+        height: 24
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242b5484c9330630800000000000000
+      internalID: 3892018019175179307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed1aa4806453b80800000000000000
+      internalID: -8415743327246098799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289f53e78f1bd610800000000000000
+      internalID: 1646944757229787171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_56
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 123
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67404c0acb4dde20800000000000000
+      internalID: 3376938626758756203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 123
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3306bbfa208c7200800000000000000
+      internalID: 179159007287968573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eb223d633139540800000000000000
+      internalID: 5013371936384925264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b27e9e5f3bff130800000000000000
+      internalID: 3602796095692286777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_61
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 51
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138b55f5ed84dce00800000000000000
+      internalID: 1066588806676068401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2459d98101ef08bd0800000000000000
+      internalID: -2629822837298457278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_63
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761638785717f7840800000000000000
+      internalID: 5224018842371711335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b644773c64b0990800000000000000
+      internalID: -7418758155829220532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd64cea115b03ea0800000000000000
+      internalID: -5895012824676799038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2f65d95d8bfe070800000000000000
+      internalID: 8137926279289041636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb9f19af4d717ea0800000000000000
+      internalID: -5876778257648477207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 171
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ab4e91d78445ff0800000000000000
+      internalID: -48333993851700637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 24
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbfa1fbd3f177130800000000000000
+      internalID: 3564351980146719705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_68
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0203d4a5ee6e20800000000000000
+      internalID: 3345864069260382154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_69
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e4fdc7b24bc5a10800000000000000
+      internalID: 1899591241715109470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_70
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 315
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6345147a7a110a0800000000000000
+      internalID: -6912559616239585626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 315
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837b7ddfabf89cb90800000000000000
+      internalID: -7221082494226417864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 315
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63c6b275cd9cc940800000000000000
+      internalID: 5317798731376411502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c8f5a56acbe68e0800000000000000
+      internalID: -1698212586805293955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_74
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef493b1424c254400800000000000000
+      internalID: 307700812626498814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_75
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 483
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad68072664bdfa1b0800000000000000
+      internalID: -5643050712726206758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947ec25b999f19e70800000000000000
+      internalID: 9120345158966896457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_77
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d407ef89b680450800000000000000
+      internalID: 6055208003847605596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_78
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1c8b8fdc54b2f10800000000000000
+      internalID: 2245965590117794209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9456109c8250f830800000000000000
+      internalID: 4102870024200803486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631e148a6f44b98b0800000000000000
+      internalID: -5144442323165126346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_81
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136337d120a77cd20800000000000000
+      internalID: 3298739401574790705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 459
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72336728c78202120800000000000000
+      internalID: 2386952317736203047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 435
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d651551891b0f60800000000000000
+      internalID: 8001517206222761348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 411
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd233d254fae6c80800000000000000
+      internalID: -8327525949315535414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 267
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73aaa41c0e313320800000000000000
+      internalID: 2535876286793556863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_86
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea2f41c1f4e69b40800000000000000
+      internalID: 5446792526332635887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1884a475da3d37410800000000000000
+      internalID: 1473754244527573121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 303
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67d6c7cbc758b7f0800000000000000
+      internalID: -596630417884915859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a482fb686c5d60800000000000000
+      internalID: 7880288260831093416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 363
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e839d35e4f197800800000000000000
+      internalID: 610553645760067812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31c3dd7b26730ba0800000000000000
+      internalID: -6123921139127041733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

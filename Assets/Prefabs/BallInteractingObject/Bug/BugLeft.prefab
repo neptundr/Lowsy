@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!95 &3321926902843179657
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757081231340754403}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 983b63f417b57be489a2f1892c6f48b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &7680744126107674374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6923947190372633446, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440229, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_Name
+      value: BugLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440234, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2386952317736203047, guid: 971230bbf5c5dfd48add191714795782, type: 3}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440235, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923947190469440236, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+      propertyPath: turningRight
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6923947190469440233, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+--- !u!1 &757081231340754403 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6923947190469440229, guid: a4d91fae00ab98049af024ee028bdc2e, type: 3}
+  m_PrefabInstance: {fileID: 7680744126107674374}
+  m_PrefabAsset: {fileID: 0}
