@@ -52,6 +52,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BallInteractingObject\Spikes.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\BallInteractingObject\Bird.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\LaserChanger.cs" />
      <Compile Include="Assets\Scripts\Placer.cs" />
      <Compile Include="Assets\Scripts\Grid.cs" />
@@ -86,7 +87,6 @@
      <Compile Include="Assets\Scripts\SubCursor.cs" />
      <Compile Include="Assets\Scripts\Tier.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\Laser.cs" />
-     <Compile Include="Assets\Scripts\BallInteractingObject\Bird.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

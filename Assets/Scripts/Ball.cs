@@ -13,6 +13,7 @@ public class Ball : MonoBehaviour
     public GameObject shadow;
     public Tier tier;
 
+    private bool _catched;
     private bool _isDead;
     private int _movingPhase;
     private float _speed = 0.1f;
@@ -24,6 +25,21 @@ public class Ball : MonoBehaviour
     private Animator _anim;
     private SpriteRenderer _sr;
     private VerticalDirection _verticalPosition = VerticalDirection.Down;
+
+    public bool GetIsCatched()
+    {
+        return _catched;
+    }
+    
+    public void BeCatched()
+    {
+        _catched = true;
+    }
+
+    public void UnCatched()
+    {
+        _catched = false;
+    }
     
     public void Die()
     {
@@ -46,6 +62,11 @@ public class Ball : MonoBehaviour
         _toPosition = to;
     }
 
+    public VerticalDirection GetVerticalPosition()
+    {
+        return _verticalPosition;
+    }
+    
     public void GoDown()
     {
         _verticalPosition = VerticalDirection.Down;
@@ -179,8 +200,11 @@ public class Ball : MonoBehaviour
 
     private void Move(Vector2Int to)
     {
-        _previousPosition = _toPosition;
-        _toPosition = new Vector2Int(_toPosition.x + to.x, _toPosition.y + to.y);
+        if (!_catched)
+        {
+            _previousPosition = _toPosition;
+            _toPosition = new Vector2Int(_toPosition.x + to.x, _toPosition.y + to.y);
+        }
     }
 
     private void Update()
