@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skyLayerName: Sky
   groundLayerName: Default
+  cc: {fileID: 979322958745967898}
   shadow: {fileID: 2716074248733013121}
   tier: {fileID: 167591607059582817, guid: 205264f068617594a8634da6a30f9f10, type: 3}
 --- !u!58 &979322958745967898

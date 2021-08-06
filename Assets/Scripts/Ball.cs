@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
     [Header("Sorting order depends too")]
     public string skyLayerName;
     public string groundLayerName;
-    [Header("")]
+    [Header("")] 
     public GameObject shadow;
     public Tier tier;
 
@@ -202,6 +202,7 @@ public class Ball : MonoBehaviour
         _toPosition = new Vector2Int(Convert.ToInt32(transform.position.x), Convert.ToInt32(transform.position.y));
         GameManager.ResetToStart += DestroyBall;
         SetTickPhase(1);
+        Move();
     }
 
     private void Move(Vector2Int to)

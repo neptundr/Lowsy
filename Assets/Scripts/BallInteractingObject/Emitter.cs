@@ -9,6 +9,7 @@ public class Emitter : BallInteractingObject
     public Direction direction;
     public Laser laser;
 
+    private bool _justStarted;
     private bool _isFunctioning;
     private int _rotatingPhase;
     private int _length = 50;
@@ -37,12 +38,24 @@ public class Emitter : BallInteractingObject
     {
         _laserLine = new Transform[_length];
         GameManager.PreRestart += Emit;
+        GameManager.Restart += OnRestart;
+        GameManager.Tick1 += OnTick1;
         // GameManager.Restart += CheckLaserLine;
+    }
+
+    private void OnTick1()
+    {
+        _justStarted = false;
+    }
+
+    private void OnRestart()
+    {
+        _justStarted = true;
     }
 
     private void Update()
     {
-        if (GameManager.Started) CheckLaserLine();
+        if (GameManager.Started && !_justStarted) CheckLaserLine();
     }
 
     private void CheckLaserLine()
@@ -101,5 +114,7 @@ public class Emitter : BallInteractingObject
         GameManager.PreRestart -= Emit;
         // GameManager.Tick3 -= CheckLaserLine;
         GameManager.ResetToStart -= ResetToStart;
+        GameManager.Restart -= OnRestart;
+        GameManager.Tick1 -= OnTick1;
     }
 }

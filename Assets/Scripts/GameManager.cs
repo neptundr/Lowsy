@@ -111,7 +111,7 @@ public class GameManager : MonoBehaviour
         }
         speedUpIcons[_tickTimePhase - 1].SetActive(true);
 
-        Time.timeScale = _tickTimePhase;
+        // Time.timeScale = _tickTimePhase;
     }
     
     public void CompleteStop()
@@ -273,7 +273,7 @@ public class GameManager : MonoBehaviour
                 _isAlternativeTick = !_isAlternativeTick;
             }
             
-            yield return new WaitForSeconds(_tickTime);
+            yield return new WaitForSeconds(_tickTime / _tickTimePhase);
         }
     }
 }

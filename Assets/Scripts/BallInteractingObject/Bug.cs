@@ -48,6 +48,7 @@ public class Bug : BallInteractingObject
         _direction = startDirection;
         _startPosition = DifferentAdditions.Vector2ToVector2Int(transform.position);
         _toPosition = _startPosition;
+        _toRotation = DifferentAdditions.DirectionToRotation(startDirection);
     }
 
     public override void ResetToStart()
@@ -56,7 +57,7 @@ public class Bug : BallInteractingObject
         _direction = startDirection;
         _toPosition = _startPosition;
         transform.position = _toPosition;
-        _toRotation = DifferentAdditions.DirectionToRotation(_direction);
+        _toRotation = DifferentAdditions.DirectionToRotation(startDirection);
         
         ClearSpikes();
         _bugSpikesCount = bugSpikesCountStart;
