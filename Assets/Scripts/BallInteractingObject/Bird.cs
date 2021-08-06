@@ -9,6 +9,8 @@ public class Bird : BallInteractingObject
 
     private float _movingSpeed = 0.1f;
     private bool _grabbed;
+    private bool _canGrab;
+    private bool _justUngrabbed;
     private Ball _catchedBall;
     private Vector2 _startPosition;
     private Vector2 _toDirection;
@@ -22,7 +24,6 @@ public class Bird : BallInteractingObject
 
     private void Start()
     {
-        _toDirection = DifferentAdditions.DirectionToVector2Int(direction);
         transform.rotation = DifferentAdditions.DirectionToRotation(direction);
         GameManager.Tick1 += Move;
         GameManager.Restart += OnRestart;
@@ -30,6 +31,7 @@ public class Bird : BallInteractingObject
 
     private void OnRestart()
     {
+        _toDirection = DifferentAdditions.DirectionToVector2Int(direction);
         _startPosition = transform.position;
         _toPosition = transform.position;
     } 
@@ -39,6 +41,7 @@ public class Bird : BallInteractingObject
         _toPosition = _startPosition;
         transform.position = _startPosition;
         UnGrabBall();
+        _canGrab = true;
     }
 
     private void Update()
@@ -47,42 +50,53 @@ public class Bird : BallInteractingObject
         {
             transform.position = Vector3.MoveTowards(transform.position, _toPosition, _movingSpeed);
 
-            if (!_grabbed)
+            if (!_grabbed && _canGrab)
             {
                 if (Physics2D.OverlapPoint(transform.position, GameManager.SkyLayer))
                 {
                     if (Physics2D.OverlapPoint(transform.position, GameManager.SkyLayer).TryGetComponent(out Ball ball))
                     {
-                        if (!ball.GetIsCatched())
+                        if (ball.GetIsCatched())
                         {
-                            _grabbed = true;
-                            _catchedBall = ball;
-                            _catchedBall.BeCatched();
+                            ball.GetByCatched().UnGrabBall();
                         }
+                        
+                        _grabbed = true;
+                        _catchedBall = ball;
+                        _catchedBall.BeCatched(this);
                     }
                 }
             }
             else
             {
-                if (_catchedBall.GetVerticalPosition() != VerticalDirection.Up)
+                if (_catchedBall != null)
                 {
-                    UnGrabBall();
+                    if (_catchedBall.GetVerticalPosition() != VerticalDirection.Up)
+                    {
+                        UnGrabBall();
+                    }
                 }
             }
         }
     }
 
-    private void UnGrabBall()
+    public void UnGrabBall()
     {
         if (_catchedBall != null) _catchedBall.UnCatched();
         _grabbed = false;
         _catchedBall = null;
+        _canGrab = false;
+        _justUngrabbed = true;
     }
 
     private void Move()
     {
+        if (_justUngrabbed) _justUngrabbed = false;
+        else _canGrab = true;
+        
         if (_grabbed)
         {
+            _canGrab = false;
             _toPosition += _toDirection;
             _catchedBall.SetToPosition(DifferentAdditions.Vector2ToVector2Int(_toPosition));
         }

@@ -36,9 +36,8 @@ public class Emitter : BallInteractingObject
     private void Start()
     {
         _laserLine = new Transform[_length];
-        GameManager.Restart += Emit;
+        GameManager.PreRestart += Emit;
         // GameManager.Restart += CheckLaserLine;
-        GameManager.Tick3 += CheckLaserLine;
     }
 
     private void Update()
@@ -57,8 +56,6 @@ public class Emitter : BallInteractingObject
             {
                 if (ball.GetColor() != color)
                 {
-                    Debug.Log("dsa");
-
                     ball.Die();
                     GameManager.Lose();
                 }
@@ -101,8 +98,7 @@ public class Emitter : BallInteractingObject
 
     private void OnDestroy()
     {
-        GameManager.Restart -= Emit;
-        GameManager.Restart -= CheckLaserLine;
+        GameManager.PreRestart -= Emit;
         // GameManager.Tick3 -= CheckLaserLine;
         GameManager.ResetToStart -= ResetToStart;
     }

@@ -18,6 +18,7 @@ public class Ball : MonoBehaviour
     private int _movingPhase;
     private float _speed = 0.1f;
     private float _tierSpawnDelay = 0.75f;
+    private Bird _catchedBy;
     private Vector2Int _toPosition;
     private Vector2Int _previousPosition;
     private Direction _movingDirection;
@@ -30,9 +31,14 @@ public class Ball : MonoBehaviour
     {
         return _catched;
     }
-    
-    public void BeCatched()
+    public Bird GetByCatched()
     {
+        return _catchedBy;
+    }
+    
+    public void BeCatched(Bird by)
+    {
+        _catchedBy = by;
         _catched = true;
     }
 

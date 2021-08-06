@@ -15,6 +15,14 @@ PrefabInstance:
       propertyPath: whatToCatch.m_Bits
       value: 3328
       objectReference: {fileID: 0}
+    - target: {fileID: 518635590363670060, guid: fc4b4d911792adb44b1aec8b387bc31f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 518635590363670060, guid: fc4b4d911792adb44b1aec8b387bc31f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9
+      objectReference: {fileID: 0}
     - target: {fileID: 1020561156259332120, guid: fc4b4d911792adb44b1aec8b387bc31f, type: 3}
       propertyPath: m_Sprite
       value: 
