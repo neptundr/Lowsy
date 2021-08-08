@@ -10,23 +10,50 @@ public class Ball : MonoBehaviour
     public string skyLayerName;
     public string groundLayerName;
     [Header("")] 
+    public GameObject[] temperatureShowers;
     public GameObject shadow;
     public Tier tier;
 
     private bool _catched;
     private bool _isDead;
+    private bool _warmedUpOnThisTick;
     private int _movingPhase;
+    private int _temperatureLevel = 1;
     private float _speed = 0.1f;
     private float _tierSpawnDelay = 0.75f;
     private Bird _catchedBy;
     private Vector2Int _toPosition;
     private Vector2Int _previousPosition;
     private Direction _movingDirection;
+    private Temperature _temperature = Temperature.Level1;
     private Color _color;
     private Animator _anim;
     private SpriteRenderer _sr;
     private VerticalDirection _verticalPosition = VerticalDirection.Down;
 
+    public void WarmUp()
+    {
+        _warmedUpOnThisTick = true;
+        _temperature = DifferentAdditions.WarmerTemperature(_temperature);
+        if (_temperature == Temperature.Death) Die();
+        else UpdateTemperatureShower();
+    }
+
+    public void CoolUp()
+    {
+        _temperature = DifferentAdditions.CoolerTemperature(_temperature);
+        UpdateTemperatureShower();
+    }
+
+    private void UpdateTemperatureShower()
+    {
+        _temperatureLevel = DifferentAdditions.TemperatureLevel(_temperature);
+        for (int i = 0; i < temperatureShowers.Length; i++)
+        {
+            temperatureShowers[i].SetActive(_temperatureLevel > i + 1);
+        }
+    }
+    
     public bool GetIsCatched()
     {
         return _catched;
@@ -200,6 +227,7 @@ public class Ball : MonoBehaviour
         _anim = GetComponent<Animator>();
         _sr = GetComponent<SpriteRenderer>();
         _toPosition = new Vector2Int(Convert.ToInt32(transform.position.x), Convert.ToInt32(transform.position.y));
+        UpdateTemperatureShower();
         GameManager.ResetToStart += DestroyBall;
         SetTickPhase(1);
         Move();
@@ -207,6 +235,9 @@ public class Ball : MonoBehaviour
 
     private void Move(Vector2Int to)
     {
+        if (!_warmedUpOnThisTick && _temperatureLevel > 1) CoolUp();
+        _warmedUpOnThisTick = false;
+
         if (!_catched)
         {
             _previousPosition = _toPosition;

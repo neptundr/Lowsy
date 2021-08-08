@@ -101,6 +101,55 @@ public class DifferentAdditions : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
         }
     }
+
+    public static Temperature WarmerTemperature(Temperature when)
+    {
+        switch (when)
+        {
+            case Temperature.Level1:
+                return Temperature.Level2;
+            case Temperature.Level2:
+                return Temperature.Level3;
+            case Temperature.Level3:
+                return Temperature.Death;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+
+    public static Temperature CoolerTemperature(Temperature when)
+    {
+        switch (when)
+        {
+            case Temperature.Death:
+                return Temperature.Death;
+            case Temperature.Level3:
+                return Temperature.Level2;
+            case Temperature.Level2:
+                return Temperature.Level1;
+            case Temperature.Level1:
+                return Temperature.Level1;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+
+    public static int TemperatureLevel(Temperature temperature)
+    {
+        switch (temperature)
+        {
+            case Temperature.Level1:
+                return 1;
+            case Temperature.Level2:
+                return 2;
+            case Temperature.Level3:
+                return 3;
+            case Temperature.Death:
+                return 4;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
 }
 
 public enum Direction
@@ -127,4 +176,12 @@ public enum VerticalDirection
 {
     Up,
     Down
+}
+
+public enum Temperature
+{
+    Level1,
+    Level2,
+    Level3,
+    Death
 }

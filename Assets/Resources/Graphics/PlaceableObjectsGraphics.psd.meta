@@ -281,6 +281,21 @@ TextureImporter:
   - first:
       213: -2152003286809080066
     second: PlaceableObjectsGraphics_92
+  - first:
+      213: -4007471038821310127
+    second: PlaceableObjectsGraphics_93
+  - first:
+      213: -436088669587437785
+    second: PlaceableObjectsGraphics_94
+  - first:
+      213: 1168130115093478998
+    second: PlaceableObjectsGraphics_95
+  - first:
+      213: 316304122992950212
+    second: PlaceableObjectsGraphics_96
+  - first:
+      213: 6817088435257284762
+    second: PlaceableObjectsGraphics_97
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -2257,7 +2272,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2278,7 +2293,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2299,7 +2314,7 @@ TextureImporter:
         width: 9
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2307,6 +2322,132 @@ TextureImporter:
       bones: []
       spriteID: b31c3dd7b26730ba0800000000000000
       internalID: -6123921139127041733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_92
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 303
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe8546996c8222e0800000000000000
+      internalID: -2152003286809080066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 274
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e36b925a9268c0800000000000000
+      internalID: -4007471038821310127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_94
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 282
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7270bae5aa3b2f9f0800000000000000
+      internalID: -436088669587437785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_95
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 267
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e35919628063010800000000000000
+      internalID: 1168130115093478998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_96
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 282
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb7cfb8cecb36400800000000000000
+      internalID: 316304122992950212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceableObjectsGraphics_97
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 243
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a981fe930d92b9e50800000000000000
+      internalID: 6817088435257284762
       vertices: []
       indices: 
       edges: []

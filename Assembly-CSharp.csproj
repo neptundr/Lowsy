@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\BallInteractingObject\BallStartPoint.cs" />
      <Compile Include="Assets\Scripts\PlaceableObjectPicker.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\Rotator.cs" />
+     <Compile Include="Assets\Scripts\BallInteractingObject\WarmUpPanel.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\SpeedUpPanel.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\Painter.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\Button.cs" />
@@ -87,6 +88,7 @@
      <Compile Include="Assets\Scripts\SubCursor.cs" />
      <Compile Include="Assets\Scripts\Tier.cs" />
      <Compile Include="Assets\Scripts\BallInteractingObject\Laser.cs" />
+     <Compile Include="Assets\Scripts\BallInteractingObject\Ballon.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

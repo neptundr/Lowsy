@@ -160,6 +160,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.data[0]
+      value: 
+      objectReference: {fileID: 1744804860685310507, guid: 2767ee8aa94477448b86107d701b5b99, type: 3}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.data[1]
+      value: 
+      objectReference: {fileID: 1360962668573093656, guid: cc8540565412f8a4590c5a1c8dafe539, type: 3}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.data[2]
+      value: 
+      objectReference: {fileID: 5401215102898151513, guid: fc4b4d911792adb44b1aec8b387bc31f, type: 3}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.data[3]
+      value: 
+      objectReference: {fileID: 3620704721420249629, guid: 931c1fca7f3de0a43b13f8e737785383, type: 3}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objects.Array.data[4]
+      value: 
+      objectReference: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.data[0]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.data[1]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.data[2]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.data[3]
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 969484851915950076, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: objectCounts.Array.data[4]
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 969484852412858453, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
       propertyPath: m_Name
       value: PackedSystem
