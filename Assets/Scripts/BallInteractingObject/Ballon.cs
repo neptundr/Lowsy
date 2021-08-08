@@ -30,6 +30,14 @@ public class Ballon : MonoBehaviour
                     ball.Die();
                 }
             }
+            else
+            {
+                _lastBall = null;
+            }
+        }
+        else
+        {
+            _lastBall = null;
         }
     }
 
@@ -41,11 +49,13 @@ public class Ballon : MonoBehaviour
     public void WarmUp()
     {
         _warmed = true;
+        UpdateLayer();
     }
 
     private void CoolUp()
     {
         _warmed = false;
+        UpdateLayer();
     }
 
     private void UpdateLayer()

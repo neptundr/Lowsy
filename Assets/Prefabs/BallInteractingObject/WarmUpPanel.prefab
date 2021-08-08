@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 6548012368588249621}
   - component: {fileID: 6548012368588249578}
   - component: {fileID: 2079622490857192054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WarmUpPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prePlaced: 0
-  canBeCatched: 1
+  canBeCatched: 0
   _catchedByCount: 0
 --- !u!114 &6548012368588249578
 MonoBehaviour:
@@ -244,6 +244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee310b6c565a906478f90a7478ced12b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whatIsBallon:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!95 &2079622490857192054
 Animator:
   serializedVersion: 3

@@ -27,11 +27,6 @@ public class PlaceableObject : MonoBehaviour
         return _catchedByCount;
     }
     
-    public void ShineUp()
-    {
-        Instantiate(ObjectManager.Shine, transform.position, Quaternion.identity);
-    }
-
     public PlaceableObjectPicker GetPicker()
     {
         return _minePicker;
