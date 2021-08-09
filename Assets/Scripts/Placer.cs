@@ -73,7 +73,7 @@ public class Placer : MonoBehaviour
         This = this;
         _mainCamera = Camera.main;
 
-        GameManager.Restart += DestroyNowPlaceable;
+        GameManager.PreRestart += DestroyNowPlaceable;
     }
 
     private void DestroyNowPlaceable()

@@ -14,6 +14,7 @@ public class Ball : MonoBehaviour
     public GameObject shadow;
     public Tier tier;
 
+    private bool _justPorted;
     private bool _catched;
     private bool _isDead;
     private bool _warmedUpOnThisTick;
@@ -88,6 +89,11 @@ public class Ball : MonoBehaviour
     public Color GetColor()
     {
         return _color;
+    }
+
+    public void Port()
+    {
+        _justPorted = true;
     }
     
     public void SetToPosition(Vector2Int to)
@@ -176,8 +182,19 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Die();
-        GameManager.Lose();
+        if (_justPorted)
+        {
+            if (!other.gameObject.GetComponent<Ball>())
+            {
+                Die();
+                GameManager.Lose();
+            }
+        }
+        else
+        {
+            Die();
+            GameManager.Lose();
+        }
     }
 
     public void AddTickPhase(int addition)
@@ -235,6 +252,8 @@ public class Ball : MonoBehaviour
 
     private void Move(Vector2Int to)
     {
+        _justPorted = false;
+        
         if (!_warmedUpOnThisTick && _temperatureLevel > 1) CoolUp();
         _warmedUpOnThisTick = false;
 
