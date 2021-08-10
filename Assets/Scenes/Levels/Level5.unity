@@ -8171,6 +8171,10 @@ PrefabInstance:
       propertyPath: objectCounts.Array.data[5]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 969484852385240875, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: sceneIndex
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 969484852412858453, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
       propertyPath: m_Name
       value: PackedSystem

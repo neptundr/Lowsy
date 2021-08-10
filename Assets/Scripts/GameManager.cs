@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     private static GameManager _thisManager;
 
     // public GameObject clockArrow;
+    public int sceneIndex;
+    public SpriteRenderer backgroundFade;
     public LayerMask groundLayer;
     public LayerMask skyLayer;
     public GameObject loseVolume;
@@ -68,6 +70,7 @@ public class GameManager : MonoBehaviour
         {
             OnStartSpriteRenderers.Add(sp);
         }
+        OnStartSpriteRenderers.Remove(backgroundFade);
         
         ChangeGridActive();
         StartCoroutine(Ticker());
@@ -201,6 +204,8 @@ public class GameManager : MonoBehaviour
         playVolume.SetActive(false);
         pauseVolume.SetActive(false);
         winVolume.SetActive(true);
+
+        PlayerPrefs.SetInt("Level" + sceneIndex, 1);
     }
     
     public static void Lose()

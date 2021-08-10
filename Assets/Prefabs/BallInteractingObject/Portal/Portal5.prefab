@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prePlaced: 1
-  canBeCatched: 1
+  canBeCatched: 0
   _catchedByCount: 0
 --- !u!114 &5887215280663057857
 MonoBehaviour:
@@ -190,6 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1f214a86d4b3a4da3fe9488c288418, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFiveLength: 1
   entry1: {fileID: 5562888721080406561}
   entry2: {fileID: 8656661308463893818}
 --- !u!212 &6028313811333288296
