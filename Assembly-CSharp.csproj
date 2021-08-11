@@ -51,10 +51,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Spikes.cs" />
+     <Compile Include="Assets\Scripts\UI\Background.cs" />
+     <Compile Include="Assets\Scripts\UI\StartLanguage.cs" />
+     <Compile Include="Assets\Scripts\Settings.cs" />
      <Compile Include="Assets\Scripts\InGame\CameraController.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Bird.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\LaserChanger.cs" />
      <Compile Include="Assets\Scripts\InGame\Placer.cs" />
+     <Compile Include="Assets\Scripts\UI\LevelIcon.cs" />
      <Compile Include="Assets\Scripts\InGame\Grid.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\TickPhaseChecker.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -63,6 +67,7 @@
      <Compile Include="Assets\Scripts\InGame\PlaceableObject.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Emitter.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\BallDestroyer.cs" />
+     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Ballon.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\CycleRotate.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\RisePanel.cs" />
@@ -70,14 +75,17 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectTransmitter.cs" />
      <Compile Include="Assets\Scripts\UI\ChoosePanel.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\NonTouchableIfRotated.cs" />
+     <Compile Include="Assets\Scripts\UI\BackButton.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Transitter.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Portal.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Winpoint.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Bug.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Rifle.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\BallStartPoint.cs" />
+     <Compile Include="Assets\Scripts\UI\LanguageChange.cs" />
      <Compile Include="Assets\Scripts\InGame\CameraBorderLine.cs" />
      <Compile Include="Assets\Scripts\UI\PlaceableObjectPicker.cs" />
+     <Compile Include="Assets\Scripts\UI\BackgroundGraphActiveSwitch.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Rotator.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\WarmUpPanel.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\SpeedUpPanel.cs" />
@@ -87,14 +95,7 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectRotator.cs" />
      <Compile Include="Assets\Scripts\InGame\Tier.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Laser.cs" />
-     <Compile Include="Assets\Scripts\UI\LevelIcon.cs" />
-     <Compile Include="Assets\Scripts\UI\BackButton.cs" />
-     <Compile Include="Assets\Scripts\UI\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Settings.cs" />
-     <Compile Include="Assets\Scripts\UI\LanguageChange.cs" />
-     <Compile Include="Assets\Scripts\UI\StartLanguage.cs" />
-     <Compile Include="Assets\Scripts\UI\Background.cs" />
-     <Compile Include="Assets\Scripts\UI\BackgroundGraphActiveSwitch.cs" />
+     <Compile Include="Assets\Scripts\UI\ScreenModeChanger.cs" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -9,7 +9,7 @@ public class BackgroundGraphActiveSwitch : MonoBehaviour
     
     private void Start()
     {
-        if (Settings.GraphActive)
+        if (!Settings.GraphActive)
         {
             active.SetActive(true);
             disactive.SetActive(false);

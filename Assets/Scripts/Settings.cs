@@ -8,30 +8,43 @@ public class Settings : MonoBehaviour
 {
     public static Language ProjectLanguage = Language.Eng;
     public static bool GraphActive = true;
-    
+    public static bool Windowed;
+
+    private bool _isFirst;
+
     public void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-        
-        // if (PlayerPrefs.HasKey("Language"))
-        // {
-            ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Eng : Language.Rus;
-        // }
-        // else
-        // {
-        //     PlayerPrefs.SetString("Language", "Eng");
-        //     ProjectLanguage = Language.Eng;
-        // }
+        if (FindObjectsOfType(typeof(Settings)).Length == 1) _isFirst = true;
+        else Destroy(gameObject);
 
-        // if (PlayerPrefs.HasKey("GraphActive"))
-        // {
+        if (_isFirst)
+        {
+            DontDestroyOnLoad(gameObject);
+
+            ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Eng : Language.Rus;
             GraphActive = PlayerPrefs.GetInt("GraphActive") == 1;
-        // }
-        // else
-        // {
-        //     PlayerPrefs.SetInt("GraphActive", 1);
-        //     GraphActive = true;
-        // }
+            Windowed = PlayerPrefs.GetInt("ScreenMode") == 0;
+            
+            Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
+            UpdateWindowResolution();
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    public static void ChangeScreenMode()
+    {
+        Windowed = !Windowed;
+        PlayerPrefs.SetInt("ScreenMode", Windowed ? 0 : 1);
+        Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
+        UpdateWindowResolution();
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    private static void UpdateWindowResolution()
+    {
+        Screen.SetResolution(Convert.ToInt32(Screen.currentResolution.width * 0.75f), Convert.ToInt32(Screen.currentResolution.height * 0.75f), !Windowed);
     }
 
     public static void ChangeBackgroundGraphActive()
