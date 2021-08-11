@@ -1,0 +1,7 @@
+Button Banned Objects:
+Portal
+Rotator (Arm)
+CycleRotate (Hand)
+Transitter
+Button
+Bird

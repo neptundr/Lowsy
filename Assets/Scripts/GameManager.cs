@@ -12,8 +12,7 @@ public class GameManager : MonoBehaviour
     public static LayerMask GroundLayer;
     public static LayerMask SkyLayer;
     public static List<SpriteRenderer> OnStartSpriteRenderers;
-
-    private static GameManager _thisManager;
+    public static GameManager ThisManager;
 
     // public GameObject clockArrow;
     public int sceneIndex;
@@ -57,7 +56,7 @@ public class GameManager : MonoBehaviour
         GroundLayer = groundLayer;
         SkyLayer = skyLayer;
         
-        _thisManager = this;
+        ThisManager = this;
         playVolume.SetActive(false);
         pauseVolume.SetActive(false);
         loseVolume.SetActive(false);;
@@ -103,16 +102,14 @@ public class GameManager : MonoBehaviour
     
     public void SpeedUp()
     {
-        _tickTimePhase += 1;
+        /*_tickTimePhase += 1;
         if (_tickTimePhase > 3) _tickTimePhase = 1;
 
         for (int i = 0; i < speedUpIcons.Length; i++)
         {
             speedUpIcons[i].SetActive(false);
         }
-        speedUpIcons[_tickTimePhase - 1].SetActive(true);
-
-        // Time.timeScale = _tickTimePhase;
+        speedUpIcons[_tickTimePhase - 1].SetActive(true);*/
     }
     
     public void CompleteStop()
@@ -193,7 +190,7 @@ public class GameManager : MonoBehaviour
     private static void Win()
     {
         Debug.Log("WIN");
-        _thisManager.LocalWin();
+        ThisManager.LocalWin();
     }
 
     private void LocalWin()
@@ -208,7 +205,7 @@ public class GameManager : MonoBehaviour
     
     public static void Lose()
     {
-        _thisManager.StopTicking();
+        ThisManager.StopTicking();
     }
 
     private void StopTicking()
@@ -222,7 +219,7 @@ public class GameManager : MonoBehaviour
 
     public static bool GetIsCompletelyStopped()
     {
-        return _thisManager.GetIsCompletelyStoppedLocal();
+        return ThisManager.GetIsCompletelyStoppedLocal();
     }
 
     public bool GetIsCompletelyStoppedLocal()

@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Point
       objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -8868,6 +8872,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder

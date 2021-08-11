@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb3f7463c28d5c4791cfa5a2ef80a9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prePlaced: 1
+  prePlaced: 0
   canBeCatched: 0
   _catchedByCount: 0
 --- !u!1001 &7247470450709149612

@@ -11,13 +11,13 @@ public class BackgroundGraphActiveSwitch : MonoBehaviour
     {
         if (!Settings.GraphActive)
         {
-            active.SetActive(true);
-            disactive.SetActive(false);
+            disactive.SetActive(true);
+            active.SetActive(false);
         }
         else
         {
-            active.SetActive(false);
-            disactive.SetActive(true);
+            disactive.SetActive(false);
+            active.SetActive(true);
         }
     }
     

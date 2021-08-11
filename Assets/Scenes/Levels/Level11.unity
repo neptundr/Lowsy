@@ -205,6 +205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Point (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -654,6 +658,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
@@ -1237,6 +1245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &416922787 stripped
@@ -1428,6 +1440,10 @@ PrefabInstance:
     - target: {fileID: 6548012368588249620, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
       propertyPath: m_Name
       value: WarmUpPanel (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
@@ -1702,6 +1718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &588624587 stripped
@@ -1763,6 +1783,10 @@ PrefabInstance:
     - target: {fileID: 6548012368588249620, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
       propertyPath: m_Name
       value: WarmUpPanel (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
@@ -1901,6 +1925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &690959671 stripped
@@ -1990,6 +2018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Point (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -2046,6 +2078,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
@@ -2692,6 +2728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &939732644 stripped
@@ -2820,6 +2860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &1002037139 stripped
@@ -2837,6 +2881,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
@@ -2938,6 +2986,10 @@ PrefabInstance:
     - target: {fileID: 6548012368588249620, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
       propertyPath: m_Name
       value: WarmUpPanel (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
@@ -3612,6 +3664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &1256995429 stripped
@@ -3927,6 +3983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &1373273810 stripped
@@ -4025,6 +4085,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
@@ -4127,6 +4191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &1560652461 stripped
@@ -4193,6 +4261,10 @@ PrefabInstance:
     - target: {fileID: 6548012368588249620, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
       propertyPath: m_Name
       value: WarmUpPanel (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
@@ -4625,6 +4697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block Point (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -4928,6 +5004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &1817602577 stripped
@@ -5206,6 +5286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarmUpPanel (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6548012368588249621, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
+      propertyPath: prePlaced
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed53bb4839236d54e8de3589527a4c83, type: 3}
 --- !u!4 &2025808472 stripped
@@ -5233,6 +5317,10 @@ PrefabInstance:
     - target: {fileID: 6882820066136429783, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_Name
       value: Block Point (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882820066136429784, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
+      propertyPath: prePlaced
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6882820066136429788, guid: ea2cb184ac0b70040876ee321d043dbc, type: 3}
       propertyPath: m_RootOrder
