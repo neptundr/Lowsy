@@ -9,7 +9,10 @@ public class Settings : MonoBehaviour
     public static Language ProjectLanguage = Language.Eng;
     public static bool GraphActive = true;
     public static bool Windowed;
+    
+    public GameObject firstLaunchScreen;
 
+    
     private bool _isFirst;
 
     public void Start()
@@ -20,7 +23,14 @@ public class Settings : MonoBehaviour
         if (_isFirst)
         {
             DontDestroyOnLoad(gameObject);
-
+            
+            firstLaunchScreen.SetActive(false);
+            if (PlayerPrefs.GetInt("FirstLaunch") == 0)
+            {
+                PlayerPrefs.SetInt("FirstLaunch", 1);
+                firstLaunchScreen.SetActive(true);
+            }
+            
             ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Eng : Language.Rus;
             GraphActive = PlayerPrefs.GetInt("GraphActive") == 1;
             Windowed = PlayerPrefs.GetInt("ScreenMode") == 0;
