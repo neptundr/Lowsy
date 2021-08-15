@@ -93,9 +93,9 @@ public class Placer : MonoBehaviour
 
     private void CheckInput()
     {
-        if (Input.GetMouseButton(0) && _nowPlaceable != null && GameManager.GetIsCompletelyStopped()) Place();
-        if (Input.GetMouseButtonUp(1) && _nowPlaceable != null) _nowPlaceable.Rotate();
-        if (Input.GetMouseButton(2) && GameManager.GetIsCompletelyStopped())
+        if ((Input.GetMouseButton(0) || Input.GetKey(KeyCode.Z)) && _nowPlaceable != null && GameManager.GetIsCompletelyStopped()) Place();
+        if ((Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.C)) && _nowPlaceable != null) _nowPlaceable.Rotate();
+        if ((Input.GetMouseButton(2) || Input.GetKey(KeyCode.X)) && GameManager.GetIsCompletelyStopped())
         {
             if (_nowPlaceable == null)
             {

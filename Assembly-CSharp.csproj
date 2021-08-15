@@ -67,11 +67,13 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject.cs" />
      <Compile Include="Assets\Scripts\InGame\Ball.cs" />
      <Compile Include="Assets\Scripts\InGame\PlaceableObject.cs" />
+     <Compile Include="Assets\Scripts\UI\BasicTutorial.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Emitter.cs" />
      <Compile Include="Assets\Scripts\UI\ExitButton.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\BallDestroyer.cs" />
      <Compile Include="Assets\Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Ballon.cs" />
+     <Compile Include="Assets\Scripts\UI\FirstLaunch.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\CycleRotate.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\RisePanel.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Bullet.cs" />
@@ -101,8 +103,6 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectRotator.cs" />
      <Compile Include="Assets\Scripts\InGame\Tier.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Laser.cs" />
-     <Compile Include="Assets\Scripts\UI\FirstLaunch.cs" />
-     <Compile Include="Assets\Scripts\UI\BasicTutorial.cs" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

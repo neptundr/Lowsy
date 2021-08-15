@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] speedUpIcons;
 
     private bool _isAlternativeTick;
+    private bool _winned;
     private bool _losed;
     private bool _completelyStopped = true;
     private bool _justFirstTick;
@@ -195,14 +196,19 @@ public class GameManager : MonoBehaviour
 
     private void LocalWin()
     {
-        Started = false;
-        playVolume.SetActive(false);
-        pauseVolume.SetActive(false);
-        winVolume.SetActive(true);
-
-        PlayerPrefs.SetInt("Level" + sceneIndex, 1);
+        if (!_losed)
+        {
+            Debug.Log("WIN");
+            Started = false;
+            playVolume.SetActive(false);
+            pauseVolume.SetActive(false);
+            winVolume.SetActive(true);
+            _winned = true;
+            
+            PlayerPrefs.SetInt("Level" + sceneIndex, 1);
+        }
     }
-    
+
     public static void Lose()
     {
         ThisManager.StopTicking();
@@ -210,11 +216,14 @@ public class GameManager : MonoBehaviour
 
     private void StopTicking()
     {
-        Started = false;
-        _losed = true;
-        playVolume.SetActive(false);
-        pauseVolume.SetActive(false);
-        loseVolume.SetActive(true);
+        if (!_winned)
+        {
+            Started = false;
+            playVolume.SetActive(false);
+            pauseVolume.SetActive(false);
+            loseVolume.SetActive(true);
+            _losed = true;
+        }
     }
 
     public static bool GetIsCompletelyStopped()
