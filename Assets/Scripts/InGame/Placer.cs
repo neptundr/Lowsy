@@ -88,7 +88,7 @@ public class Placer : MonoBehaviour
 
         CheckMove();
         MovePosition();
-        CheckInput();
+        if (!GameManager.ThisManager.isTutorial) CheckInput();
     }
 
     private void CheckInput()

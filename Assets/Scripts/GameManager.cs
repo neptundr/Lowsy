@@ -29,10 +29,12 @@ public class GameManager : MonoBehaviour
     public GameObject gridOffIcon;
     public GameObject grid;
     public GameObject[] speedUpIcons;
+    public bool isTutorial;
+    
+    [NonSerialized] public bool losed;
+    [NonSerialized] public bool winned;
 
     private bool _isAlternativeTick;
-    private bool _winned;
-    private bool _losed;
     private bool _completelyStopped = true;
     private bool _justFirstTick;
     private int _tickTimePhase = 1;
@@ -78,11 +80,14 @@ public class GameManager : MonoBehaviour
     {
         // clockArrow.transform.rotation = Quaternion.Lerp(clockArrow.transform.rotation,
         //     quaternion.Euler(0, 0, _clockArrowToRotationZ), _clockArrowRotationSpeed);
-        
-        if (Input.GetKeyUp(KeyCode.Space)) StartPause();
-        if (Input.GetKey(KeyCode.LeftAlt)) CompleteStop();
-        if (Input.GetKeyUp(KeyCode.RightAlt)) SpeedUp();
-        if (Input.GetKeyUp(KeyCode.LeftShift)) ChangeGridActive();
+
+        if (!isTutorial)
+        {
+            if (Input.GetKeyUp(KeyCode.Space)) StartPause();
+            if (Input.GetKey(KeyCode.LeftAlt)) CompleteStop();
+            if (Input.GetKeyUp(KeyCode.RightAlt)) SpeedUp();
+            if (Input.GetKeyUp(KeyCode.LeftShift)) ChangeGridActive();
+        }
     }
 
     public void ChangeGridActive()
@@ -125,7 +130,7 @@ public class GameManager : MonoBehaviour
         ResetToStart?.Invoke();
         Started = false;
         _completelyStopped = true;
-        _losed = false;
+        losed = false;
         _tickPhase = 0;
         _alternativeTickPhase = 0;
         BallsToRegister = 0;
@@ -134,7 +139,7 @@ public class GameManager : MonoBehaviour
 
     public void StartPause()
     {
-        if (!_losed)
+        if (!losed)
         {
             if (Started)
             {
@@ -162,7 +167,7 @@ public class GameManager : MonoBehaviour
 
     private void TickStart()
     {
-        if (!Started && !_losed)
+        if (!Started && !losed)
         {
             if (_completelyStopped)
             {
@@ -196,14 +201,14 @@ public class GameManager : MonoBehaviour
 
     private void LocalWin()
     {
-        if (!_losed)
+        if (!losed)
         {
             Debug.Log("WIN");
             Started = false;
             playVolume.SetActive(false);
             pauseVolume.SetActive(false);
             winVolume.SetActive(true);
-            _winned = true;
+            winned = true;
             
             PlayerPrefs.SetInt("Level" + sceneIndex, 1);
         }
@@ -216,13 +221,13 @@ public class GameManager : MonoBehaviour
 
     private void StopTicking()
     {
-        if (!_winned)
+        if (!winned)
         {
             Started = false;
             playVolume.SetActive(false);
             pauseVolume.SetActive(false);
             loseVolume.SetActive(true);
-            _losed = true;
+            losed = true;
         }
     }
 
