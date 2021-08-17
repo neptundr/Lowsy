@@ -103,6 +103,7 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectRotator.cs" />
      <Compile Include="Assets\Scripts\InGame\Tier.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Laser.cs" />
+     <Compile Include="Assets\Scripts\Loader.cs" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

@@ -6,20 +6,20 @@ using UnityEngine.Animations;
 
 public class SettingsButton : MonoBehaviour
 {
-    public GameObject[] settingsIcons;
+    public Animator settingsIcons;
 
     private bool _activated = true;
     
     private void Start()
     {
-        foreach (GameObject settingsIcon in settingsIcons) settingsIcon.SetActive(true);
-        
+        settingsIcons.SetTrigger("On");
         Invoke(nameof(SettingsIconsActiveChange), 0.005f);
     }
 
     public void SettingsIconsActiveChange()
     {
         _activated = !_activated;
-        foreach (GameObject settingsIcon in settingsIcons) settingsIcon.SetActive(_activated);
+        if (_activated) settingsIcons.SetTrigger("On");
+        else settingsIcons.SetTrigger("Off");
     }
 }

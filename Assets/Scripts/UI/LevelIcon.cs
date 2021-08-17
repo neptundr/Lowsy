@@ -24,14 +24,13 @@ public class LevelIcon : MonoBehaviour
 
     private void OnMouseOver()
     {
-        UIManager.This.levelName.text = Settings.ProjectLanguage == Language.Eng ? nameEng : nameRus;
-        UIManager.This.levelDifficulty.text = Settings.ProjectLanguage == Language.Eng ? difficultyEng : difficultyRus;
-        UIManager.This.levelDifficulty.color = difficultyColor;
+        UIManager.This.SetLevelInfo(Settings.ProjectLanguage == Language.Eng ? nameEng : nameRus,
+            Settings.ProjectLanguage == Language.Eng ? difficultyEng : difficultyRus, difficultyColor, this);
     }
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("Level" + levelIndex);
+        Loader.LoadScene("Level" + levelIndex);
     }
     
     private void Start()

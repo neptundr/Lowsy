@@ -25,9 +25,8 @@ public class TutorialTrey : MonoBehaviour
         GameManager.ThisManager.CompleteStop();
         
         _opened = false;
-        trey.SetActive(_opened);
-        objectName.gameObject.SetActive(!_opened);
-        objectDescription.gameObject.SetActive(!_opened);
+        trey.GetComponent<Animator>().SetTrigger("Off");
+        objectName.GetComponent<Animator>().SetTrigger("On");
         
         objectName.text = name;
         objectDescription.text = description;
@@ -36,11 +35,7 @@ public class TutorialTrey : MonoBehaviour
     private void Start()
     {
         This = this;
-
         _opened = true;
-        trey.SetActive(_opened);
-        objectName.gameObject.SetActive(!_opened);
-        objectDescription.gameObject.SetActive(!_opened);
     }
 
     private void Update()
@@ -53,6 +48,6 @@ public class TutorialTrey : MonoBehaviour
 
     public void Trey()
     {
-        if (!_opened) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (!_opened) Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

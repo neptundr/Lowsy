@@ -10,9 +10,6 @@ public class Settings : MonoBehaviour
     public static bool GraphActive = true;
     public static bool Windowed;
     
-    public GameObject firstLaunchScreen;
-
-    
     private bool _isFirst;
 
     public void Start()
@@ -23,14 +20,7 @@ public class Settings : MonoBehaviour
         if (_isFirst)
         {
             DontDestroyOnLoad(gameObject);
-            
-            firstLaunchScreen.SetActive(false);
-            if (PlayerPrefs.GetInt("FirstLaunch") == 0)
-            {
-                PlayerPrefs.SetInt("FirstLaunch", 1);
-                firstLaunchScreen.SetActive(true);
-            }
-            
+
             ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Eng : Language.Rus;
             GraphActive = PlayerPrefs.GetInt("GraphActive") == 1;
             Windowed = PlayerPrefs.GetInt("ScreenMode") == 0;
@@ -49,7 +39,7 @@ public class Settings : MonoBehaviour
         Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
         UpdateWindowResolution();
         
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private static void UpdateWindowResolution()
@@ -62,7 +52,7 @@ public class Settings : MonoBehaviour
         GraphActive = !GraphActive;
         
         PlayerPrefs.SetInt("GraphActive", GraphActive ? 1 : 0);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
     public static void ChangeLanguage()
@@ -70,7 +60,7 @@ public class Settings : MonoBehaviour
         ProjectLanguage = ProjectLanguage == Language.Eng ? Language.Rus : Language.Eng;
         
         PlayerPrefs.SetString("Language", ProjectLanguage == Language.Eng ? "Eng" : "Rus");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
 

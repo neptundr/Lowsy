@@ -8,7 +8,7 @@ public class StartLanguage : MonoBehaviour
     public string eng;
     public string rus;
     
-    void Start()
+    private void Start()
     {
         GetComponent<Text>().text = Settings.ProjectLanguage == Language.Eng ? eng : rus;
     }
