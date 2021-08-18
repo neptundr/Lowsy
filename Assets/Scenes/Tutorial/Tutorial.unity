@@ -11927,7 +11927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f605c80bac0be64894a05f36232d1cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eng: Control
+  eng: Controls
   rus: "\u0423\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435"
 --- !u!114 &2045829618
 MonoBehaviour:
@@ -11962,7 +11962,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Control
+  m_Text: Controls
 --- !u!222 &2045829619
 CanvasRenderer:
   m_ObjectHideFlags: 0
