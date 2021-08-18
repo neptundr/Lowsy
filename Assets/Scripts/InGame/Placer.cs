@@ -117,7 +117,7 @@ public class Placer : MonoBehaviour
             }
         }
         if (Input.GetKeyDown(KeyCode.LeftControl)) DestroyPlacedObjects();
-        if (Input.GetKeyDown(KeyCode.RightControl)) ShineUpPlacedObjects();
+        if (Input.GetKeyDown(KeyCode.RightAlt)) ShineUpPlacedObjects();
     }
 
     private void MovePosition()

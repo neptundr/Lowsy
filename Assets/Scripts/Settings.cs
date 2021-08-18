@@ -21,9 +21,9 @@ public class Settings : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
 
-            ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Eng : Language.Rus;
-            GraphActive = PlayerPrefs.GetInt("GraphActive") == 1;
-            Windowed = PlayerPrefs.GetInt("ScreenMode") == 0;
+            ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Rus : Language.Eng;
+            GraphActive = PlayerPrefs.GetInt("GraphActive") != 1;
+            Windowed = PlayerPrefs.GetInt("ScreenMode") != 0;
             
             Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
             UpdateWindowResolution();
