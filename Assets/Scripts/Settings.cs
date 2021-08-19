@@ -11,7 +11,7 @@ public class Settings : MonoBehaviour
     public static bool Windowed;
     
     private bool _isFirst;
-
+    
     public void Start()
     {
         if (FindObjectsOfType(typeof(Settings)).Length == 1) _isFirst = true;
