@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject.cs" />
      <Compile Include="Assets\Scripts\InGame\Ball.cs" />
      <Compile Include="Assets\Scripts\InGame\PlaceableObject.cs" />
+     <Compile Include="Assets\Scripts\UI\SliderValueSetter.cs" />
      <Compile Include="Assets\Scripts\UI\BasicTutorial.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Emitter.cs" />
      <Compile Include="Assets\Scripts\UI\ExitButton.cs" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\Scripts\InGame\CameraBorderLine.cs" />
      <Compile Include="Assets\Scripts\UI\PlaceableObjectPicker.cs" />
      <Compile Include="Assets\Scripts\UI\BackgroundGraphActiveSwitch.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\TutorialObjectInfo.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Rotator.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\WarmUpPanel.cs" />
@@ -105,7 +107,6 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectRotator.cs" />
      <Compile Include="Assets\Scripts\InGame\Tier.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Laser.cs" />
-     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

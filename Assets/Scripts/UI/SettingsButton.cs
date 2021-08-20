@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Animations;
 
 public class SettingsButton : MonoBehaviour
 {
@@ -18,6 +17,7 @@ public class SettingsButton : MonoBehaviour
 
     public void SettingsIconsActiveChange()
     {
+        AudioManager.OnMouseClick();
         _activated = !_activated;
         if (_activated) settingsIcons.SetTrigger("On");
         else settingsIcons.SetTrigger("Off");

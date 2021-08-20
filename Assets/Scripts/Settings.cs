@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class Settings : MonoBehaviour
@@ -9,6 +10,9 @@ public class Settings : MonoBehaviour
     public static Language ProjectLanguage = Language.Eng;
     public static bool GraphActive = true;
     public static bool Windowed;
+    public static Settings This;
+
+    public AudioMixerGroup mixer;
     
     private bool _isFirst;
     
@@ -21,6 +25,8 @@ public class Settings : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
 
+            This = this;
+
             ProjectLanguage = PlayerPrefs.GetString("Language") == "Eng" ? Language.Rus : Language.Eng;
             GraphActive = PlayerPrefs.GetInt("GraphActive") != 1;
             Windowed = PlayerPrefs.GetInt("ScreenMode") != 0;
@@ -30,6 +36,16 @@ public class Settings : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        mixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0,value));
+    }
+    
+    public void SetEffectsVolume(float value)
+    {
+        mixer.audioMixer.SetFloat("EffectsVolume", Mathf.Lerp(-80, 0,value));
     }
 
     public static void ChangeScreenMode()

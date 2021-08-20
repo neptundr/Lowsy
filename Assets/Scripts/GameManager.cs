@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer backgroundFade;
     public LayerMask groundLayer;
     public LayerMask skyLayer;
+    public GameObject winScreen;
     public GameObject loseVolume;
     public GameObject winVolume;
     public GameObject pauseVolume;
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
     private bool _isAlternativeTick;
     private bool _completelyStopped = true;
     private bool _justFirstTick;
-    private int _tickTimePhase = 1;
+    // private int _tickTimePhase = 1;
     private float _tickTime = 0.25f;
     private float _tickPhase;
     private float _alternativeTickPhase;
@@ -84,7 +85,7 @@ public class GameManager : MonoBehaviour
         if (!isTutorial)
         {
             if (Input.GetKeyUp(KeyCode.Space)) StartPause();
-            if (Input.GetKey(KeyCode.LeftAlt)) CompleteStop();
+            if (Input.GetKeyUp(KeyCode.LeftAlt)) CompleteStop();
             if (Input.GetKeyUp(KeyCode.RightAlt)) SpeedUp();
             if (Input.GetKeyUp(KeyCode.LeftShift)) ChangeGridActive();
         }
@@ -92,6 +93,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeGridActive()
     {
+        AudioManager.OnMouseClick();
         grid.SetActive(!grid.activeSelf);
 
         if (grid.activeSelf)
@@ -108,7 +110,9 @@ public class GameManager : MonoBehaviour
     
     public void SpeedUp()
     {
-        /*_tickTimePhase += 1;
+        /*
+        AudioManager.OnMouseClick();
+        _tickTimePhase += 1;
         if (_tickTimePhase > 3) _tickTimePhase = 1;
 
         for (int i = 0; i < speedUpIcons.Length; i++)
@@ -120,6 +124,8 @@ public class GameManager : MonoBehaviour
     
     public void CompleteStop()
     {
+        AudioManager.OnMouseClick();
+        
         playIcon.SetActive(true);
         pauseIcon.SetActive(false);
         playVolume.SetActive(false);
@@ -141,6 +147,7 @@ public class GameManager : MonoBehaviour
     {
         if (!losed)
         {
+            AudioManager.OnMouseClick();
             if (Started)
             {
                 Pause();
@@ -196,6 +203,7 @@ public class GameManager : MonoBehaviour
     private static void Win()
     {
         Debug.Log("WIN");
+        AudioManager.Win();
         ThisManager.LocalWin();
     }
 
@@ -209,6 +217,7 @@ public class GameManager : MonoBehaviour
             pauseVolume.SetActive(false);
             winVolume.SetActive(true);
             winned = true;
+            if (!isTutorial) winScreen.SetActive(true);
             
             PlayerPrefs.SetInt("Level" + sceneIndex, 1);
         }
@@ -216,6 +225,7 @@ public class GameManager : MonoBehaviour
 
     public static void Lose()
     {
+        AudioManager.Lose();
         ThisManager.StopTicking();
     }
 
@@ -267,6 +277,7 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
+                    AudioManager.Tick();
                     if (_tickPhase >= TickPhaseMax) _tickPhase = 0;
                     _tickPhase += 1;
 
@@ -287,7 +298,7 @@ public class GameManager : MonoBehaviour
                 _isAlternativeTick = !_isAlternativeTick;
             }
             
-            yield return new WaitForSeconds(_tickTime / _tickTimePhase);
+            yield return new WaitForSeconds(_tickTime);
         }
     }
 }

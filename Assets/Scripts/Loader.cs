@@ -35,6 +35,7 @@ public class Loader : MonoBehaviour
     private IEnumerator Load(string sceneName)
     {
         anim.SetTrigger("Start");
+        AudioManager.SceneLoading();
 
         yield return new WaitForSeconds(_transitionDuration);
 

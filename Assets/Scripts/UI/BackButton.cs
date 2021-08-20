@@ -7,6 +7,7 @@ public class BackButton : MonoBehaviour
 {
     public void BackToMenu()
     {
+        AudioManager.BackButton();
         Loader.LoadScene(0);
     }
 }

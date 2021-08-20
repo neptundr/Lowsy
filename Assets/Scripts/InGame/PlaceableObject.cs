@@ -39,7 +39,7 @@ public class PlaceableObject : MonoBehaviour
 
     public void Rotate()
     {
-        _bio.Rotate();
+        if (_bio != null) _bio.Rotate();
     }
 
     private void OnRestart()

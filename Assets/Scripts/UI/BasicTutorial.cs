@@ -31,6 +31,7 @@ public class BasicTutorial : MonoBehaviour
 
     public void NextTip()
     {
+        AudioManager.OnMouseClick();
         if (!play[_nowTip] || _canBeSkipped)
         {
             Tip();

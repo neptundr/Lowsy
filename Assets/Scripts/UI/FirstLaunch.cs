@@ -13,14 +13,15 @@ public class FirstLaunch : MonoBehaviour
 
     public void Yes()
     {
+        AudioManager.OnMouseClick();
         PlayerPrefs.SetInt("FirstLaunch", 1);
         Loader.LoadScene("BasicTutorial");
     }
 
     public void No()
     {
+        AudioManager.OnMouseClick();
         PlayerPrefs.SetInt("FirstLaunch", 1);
-        
         Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

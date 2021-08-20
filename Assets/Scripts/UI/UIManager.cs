@@ -58,6 +58,7 @@ public class UIManager : MonoBehaviour
     {
         if (levelInfoText.text != comparable)
         {
+            AudioManager.Tick();
             if (!textData.deleted)
             {
                 if (levelInfoText.text != "")

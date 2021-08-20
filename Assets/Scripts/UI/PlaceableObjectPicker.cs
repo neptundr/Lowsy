@@ -20,6 +20,7 @@ public class PlaceableObjectPicker : MonoBehaviour
     
     public void SetPlaceable()
     {
+        AudioManager.OnMouseClick();
         if (_count > 0 && GameManager.GetIsCompletelyStopped()) Placer.This.SetPlaceable(placeableObject, this);
     }
 

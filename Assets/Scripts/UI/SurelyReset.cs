@@ -13,12 +13,14 @@ public class SurelyReset : MonoBehaviour
 
     public void Yes()
     {
+        AudioManager.OnMouseClick();
         PlayerPrefs.DeleteAll();
         Application.Quit();
     }
 
     public void No()
     {
+        AudioManager.OnMouseClick();
         Loader.LoadScene(0);
     }
 }

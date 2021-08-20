@@ -8,6 +8,7 @@ public class Placer : MonoBehaviour
 {
     public static Placer This;
 
+    public CameraController cameraController;
     public GameObject shineUpOn;
     public GameObject shineUpOff;
     
@@ -20,6 +21,8 @@ public class Placer : MonoBehaviour
 
     public void ShineUpPlacedObjects()
     {
+        AudioManager.OnMouseClick();
+        
         _isShined = !_isShined;
         UnityEngine.Color color = _isShined ? new UnityEngine.Color(GameManager.PrePlacedObjectsOpacity,
             GameManager.PrePlacedObjectsOpacity, GameManager.PrePlacedObjectsOpacity) : new UnityEngine.Color(1, 1, 1);
@@ -45,6 +48,7 @@ public class Placer : MonoBehaviour
     {
         if (GameManager.GetIsCompletelyStopped())
         {
+            AudioManager.OnMouseClick();
             foreach (PlaceableObject placeableObject in FindObjectsOfType<PlaceableObject>().Where(po => po.prePlaced == false))
             {
                 placeableObject.GetPicker().AddCount();
@@ -94,7 +98,11 @@ public class Placer : MonoBehaviour
     private void CheckInput()
     {
         if ((Input.GetMouseButton(0) || Input.GetKey(KeyCode.Z)) && _nowPlaceable != null && GameManager.GetIsCompletelyStopped()) Place();
-        if ((Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.C)) && _nowPlaceable != null) _nowPlaceable.Rotate();
+        if ((Input.GetMouseButtonUp(1) || Input.GetKeyUp(KeyCode.C)) && _nowPlaceable != null)
+        {
+            AudioManager.Tick();
+            _nowPlaceable.Rotate();
+        }
         if ((Input.GetMouseButton(2) || Input.GetKey(KeyCode.X)) && GameManager.GetIsCompletelyStopped())
         {
             if (_nowPlaceable == null)
@@ -105,6 +113,7 @@ public class Placer : MonoBehaviour
                     {
                         if (!pc.prePlaced)
                         {
+                            AudioManager.WrongPlacement();
                             pc.GetPicker().AddCount();
                             Destroy(pc.gameObject);
                         }
@@ -113,6 +122,7 @@ public class Placer : MonoBehaviour
             }
             else
             {
+                AudioManager.WrongPlacement();
                 DestroyNowPlaceable();
             }
         }
@@ -142,10 +152,15 @@ public class Placer : MonoBehaviour
     {
         if (_nowPlaceable.GetCanBePlaced())
         {
+            AudioManager.ObjectPlace();
             _nowPlaceable.transform.SetParent(null);
             _nowPlaceable.Place();
             _nowPlaceable = null;
             _lastPicker.SubCount();
+        }
+        else
+        {
+            cameraController.Rotate();
         }
     }
 }

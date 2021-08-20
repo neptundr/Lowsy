@@ -222,6 +222,7 @@ public class Ball : MonoBehaviour
 
     private void SpawnTier()
     {
+        AudioManager.BackButton();
         Instantiate(tier, transform.position, Quaternion.identity);
         Invoke(nameof(SpawnTier), _tierSpawnDelay * Random.Range(0.5f, 1.5f));
     }
