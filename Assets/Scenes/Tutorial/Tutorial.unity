@@ -3352,6 +3352,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 1603128543541967915, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 2716303756224235115, guid: 80c954202f254e34a9b8f5d76cd81415, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12
@@ -4471,13 +4475,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 293042456695019953, guid: a5539475264e6e449acc70bb84144986, type: 3}
       propertyPath: objectDescriptionEng
-      value: Moves objects once per alternative tick.
+      value: Moves objects once per alternative turn.
       objectReference: {fileID: 0}
     - target: {fileID: 293042456695019953, guid: a5539475264e6e449acc70bb84144986, type: 3}
       propertyPath: objectDescriptionRus
       value: "\u041F\u0435\u0440\u0435\u043C\u0435\u0449\u0430\u0435\u0442 \u043E\u0431\u044A\u0435\u043A\u0442\u044B
         \u043E\u0434\u0438\u043D \u0440\u0430\u0437 \u0437\u0430 \u0430\u043B\u044C\u0442\u0435\u0440\u043D\u0430\u0442\u0438\u0432\u043D\u044B\u0439
-        \u0442\u0438\u043A."
+        \u0445\u043E\u0434."
       objectReference: {fileID: 0}
     - target: {fileID: 293042456695019955, guid: a5539475264e6e449acc70bb84144986, type: 3}
       propertyPath: m_Type
@@ -6224,7 +6228,7 @@ PrefabInstance:
       objectReference: {fileID: 53505937}
     - target: {fileID: 293042456695019953, guid: a5539475264e6e449acc70bb84144986, type: 3}
       propertyPath: objectNameEng
-      value: Finger spidr
+      value: Finger pider
       objectReference: {fileID: 0}
     - target: {fileID: 293042456695019953, guid: a5539475264e6e449acc70bb84144986, type: 3}
       propertyPath: objectNameRus
@@ -9761,8 +9765,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 543, y: 7}
-  m_SizeDelta: {x: 815, y: 30}
+  m_AnchoredPosition: {x: 24, y: 83}
+  m_SizeDelta: {x: 692.11096, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1673337585
 MonoBehaviour:
