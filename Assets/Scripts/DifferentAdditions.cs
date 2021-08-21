@@ -6,6 +6,12 @@ using UnityEngine;
 
 public class DifferentAdditions : MonoBehaviour
 {
+    public static Orientation DirectionToOrientation(Direction direction)
+    {
+        if (direction == Direction.Left || direction == Direction.Right) return Orientation.Horizontal;
+        else return Orientation.Vertical;
+    }
+    
     public static Quaternion DirectionToRotation(Direction direction)
     {
         switch (direction)

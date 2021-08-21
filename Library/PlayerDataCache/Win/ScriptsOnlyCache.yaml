@@ -36,6 +36,7 @@ ScriptsOnlyBuild:
     - PlaceableObjectPicker
     - Placer
     - Portal
+    - ReportBug
     - Rifle
     - RisePanel
     - Rotator
@@ -1976,6 +1977,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17206}
     - Class: 114
       Script: {instanceID: 17214}
+    - Class: 114
+      Script: {instanceID: 191114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3739,6 +3742,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Laser
+  - hash:
+      serializedVersion: 2
+      Hash: 525c175d1b0a5e2a64560f724af09fbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReportBug
   platform: 5
   scenePathNames:
   - Assets/Scenes/Menu.unity

@@ -731,12 +731,12 @@ TextureImporter:
       name: _I_26
       rect:
         serializedVersion: 2
-        x: 42
+        x: 41
         y: 24
-        width: 8
+        width: 9
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

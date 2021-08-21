@@ -103,7 +103,9 @@ public class Emitter : BallInteractingObject
         {
             _laserLine[i] = Instantiate(laser.gameObject,
                 new Vector3(_laserLine[i - 1].position.x + to.x, _laserLine[i - 1].position.y + to.y),
-                Quaternion.identity, _laserLine[i - 1]).transform;
+                (DifferentAdditions.DirectionToOrientation(direction) == Orientation.Vertical
+                    ? Quaternion.Euler(0, 0, 0)
+                    : Quaternion.Euler(0, 0, 90)), _laserLine[i - 1]).transform;
             _laserLine[i].rotation = transform.rotation;
             _laserLine[i].GetComponent<Laser>().SetColor(color);
         }

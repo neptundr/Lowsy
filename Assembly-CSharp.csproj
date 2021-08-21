@@ -99,6 +99,7 @@
      <Compile Include="Assets\Scripts\TutorialObjectInfo.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Rotator.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\WarmUpPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\VersionText.cs" />
      <Compile Include="Assets\Scripts\TutorialTrey.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\SpeedUpPanel.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Painter.cs" />
@@ -107,7 +108,7 @@
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\ObjectRotator.cs" />
      <Compile Include="Assets\Scripts\InGame\Tier.cs" />
      <Compile Include="Assets\Scripts\InGame\BallInteractingObject\Laser.cs" />
-     <Compile Include="Assets\Scripts\UI\VersionText.cs" />
+     <Compile Include="Assets\Scripts\UI\ReportBug.cs" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Resources\Text\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

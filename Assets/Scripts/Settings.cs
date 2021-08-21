@@ -31,13 +31,12 @@ public class Settings : MonoBehaviour
             GraphActive = PlayerPrefs.GetInt("GraphActive") != 1;
             Windowed = PlayerPrefs.GetInt("ScreenMode") != 0;
             
-            Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
-            UpdateWindowResolution();
+            Screen.fullScreenMode = Windowed ? FullScreenMode.MaximizedWindow : FullScreenMode.FullScreenWindow;
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
-
+    
     public void SetMusicVolume(float value)
     {
         mixer.audioMixer.SetFloat("MusicVolume", Mathf.Lerp(-80, 0,value));
@@ -53,14 +52,8 @@ public class Settings : MonoBehaviour
         Windowed = !Windowed;
         PlayerPrefs.SetInt("ScreenMode", Windowed ? 0 : 1);
         Screen.fullScreenMode = Windowed ? FullScreenMode.Windowed : FullScreenMode.FullScreenWindow;
-        UpdateWindowResolution();
         
         Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    private static void UpdateWindowResolution()
-    {
-        Screen.SetResolution(Convert.ToInt32(Screen.currentResolution.width * 0.75f), Convert.ToInt32(Screen.currentResolution.height * 0.75f), !Windowed);
     }
 
     public static void ChangeBackgroundGraphActive()
@@ -75,7 +68,7 @@ public class Settings : MonoBehaviour
     {
         ProjectLanguage = ProjectLanguage == Language.Eng ? Language.Rus : Language.Eng;
         
-        PlayerPrefs.SetString("Language", ProjectLanguage == Language.Eng ? "Eng" : "Rus");
+        PlayerPrefs.SetString("Language", ProjectLanguage == Language.Eng ? "Rus" : "Eng");
         Loader.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
