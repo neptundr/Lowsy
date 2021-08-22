@@ -12,7 +12,8 @@ public class ReportBug : MonoBehaviour
     public void Click()
     {
         bugReportText.SetActive(!bugReportText.activeSelf);
-        Invoke(nameof(SetActiveFalse), _waitTime);
+        if (bugReportText.activeSelf) Invoke(nameof(SetActiveFalse), _waitTime);
+        else CancelInvoke(nameof(SetActiveFalse));
     }
 
     private void SetActiveFalse()

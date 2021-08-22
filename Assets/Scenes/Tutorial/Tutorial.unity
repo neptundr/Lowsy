@@ -9801,7 +9801,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 24, y: 83}
-  m_SizeDelta: {x: 692.11096, y: 30}
+  m_SizeDelta: {x: 902.8368, y: 16.1335}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1673337585
 MonoBehaviour:
@@ -9836,7 +9836,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You can open the objects list with middle mouse button.
+  m_Text: You can open the objects list with middle mouse button or quastion button
+    below.
 --- !u!222 &1673337586
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -32,33 +32,44 @@ public class BasicTutorial : MonoBehaviour
     public void NextTip()
     {
         AudioManager.OnMouseClick();
-        if (!play[_nowTip] || _canBeSkipped)
+
+        if (_nowTip >= tipsEng.Length)
         {
-            Tip();
+            Loader.LoadScene("Tutorial");
+        }
+        else
+        {
+            if (!play[_nowTip] || _canBeSkipped)
+            {
+                Tip();
+            }
         }
     }
 
     private void Tip()
     {
         tipText.text = Settings.ProjectLanguage == Language.Eng ? tipsEng[_nowTip] : tipsRus[_nowTip];
-        if (_nowTip < tipsEng.Length - 1) _nowTip += 1;
-        TransitterSetActive();
+        _nowTip += 1;
         
+        TransitterSetActive();
+
         if (play[_nowTip] && GameManager.GetIsCompletelyStopped())
         {
             GameManager.ThisManager.StartPause();
             _canBeSkipped = false;
         }
+
         if (!play[_nowTip] && !GameManager.GetIsCompletelyStopped())
         {
             GameManager.ThisManager.CompleteStop();
             _canBeSkipped = false;
         }
-        
+
         for (int i = 0; i < showers.Length; i++)
         {
             showers[i].SetActive(false);
         }
+
         if (showersActive[_nowTip] != -1) showers[showersActive[_nowTip]].SetActive(true);
     }
 
