@@ -61,7 +61,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -3769,4 +3768,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Tutorial/BasicTutorial.unity
   - Assets/Scenes/Tutorial/Control.unity
   playerPath: "C:/Users/neptu/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B/Eye/Lowsy.exe"
+    \u0441\u0442\u043E\u043B/ASD/Builds/Eye/Lowsy.exe"
