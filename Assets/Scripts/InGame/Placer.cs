@@ -160,6 +160,7 @@ public class Placer : MonoBehaviour
         }
         else
         {
+            DestroyNowPlaceable();
             cameraController.Rotate();
         }
     }

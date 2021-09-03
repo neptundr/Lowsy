@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
 
     private bool _isAlternativeTick;
     private bool _completelyStopped = true;
-    private bool _justFirstTick;
     // private int _tickTimePhase = 1;
     private float _tickTime = 0.25f;
     private float _tickPhase;
@@ -121,26 +120,29 @@ public class GameManager : MonoBehaviour
         }
         speedUpIcons[_tickTimePhase - 1].SetActive(true);*/
     }
-    
+
     public void CompleteStop()
     {
         AudioManager.OnMouseClick();
-        
-        playIcon.SetActive(true);
-        pauseIcon.SetActive(false);
-        playVolume.SetActive(false);
-        pauseVolume.SetActive(false);
-        loseVolume.SetActive(false);
-        winVolume.SetActive(false);
-        
-        ResetToStart?.Invoke();
-        Started = false;
-        _completelyStopped = true;
-        losed = false;
-        _tickPhase = 0;
-        _alternativeTickPhase = 0;
-        BallsToRegister = 0;
-        _isAlternativeTick = false;
+
+        if (!_completelyStopped)
+        {
+            playIcon.SetActive(true);
+            pauseIcon.SetActive(false);
+            playVolume.SetActive(false);
+            pauseVolume.SetActive(false);
+            loseVolume.SetActive(false);
+            winVolume.SetActive(false);
+
+            ResetToStart?.Invoke();
+            Started = false;
+            _completelyStopped = true;
+            losed = false;
+            _tickPhase = 0;
+            _alternativeTickPhase = 0;
+            BallsToRegister = 0;
+            _isAlternativeTick = false;
+        }
     }
 
     public void StartPause()
